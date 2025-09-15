@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
         }
+
         .topnav {
             overflow: hidden;
             background-color: navy;
         }
+
         .topnav a {
             float: left;
             color: black;
@@ -21,12 +24,14 @@
             text-decoration: none;
             font-size: 17px;
         }
+
         .topnav a:hover {
             background-color: blue;
             color: darkgray;
         }
     </style>
 </head>
+
 <body>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
@@ -34,23 +39,19 @@
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact_Us</a>
     </div>
-    <section>
-        <img class="mySlides" src="FORTNITE.jpg"height="500">
-        <img class="mySlides" src="images.jpg" height="500">
-    </section>
-    <script>
-        var myIndex = 0;
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++){ 
-              x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1;}
-            x[myIndex-1].style.disply = "block";
-            setTimeout(carousel, 3000);
-        }
-    </script>
+    <h1>Peely</h1>
+    <p>Peely is Fortnite's most ridiculous (and beloved) skin. A walking banana with an unsettlingly happy face, he's become a
+    meme, a menace, and a fan-favorite ...</p>
+
+    <h1>Galaxy</h1>
+    <p>The Galaxy skin is a very legendary skin that you cant get anymore and its accessories are also legendary</p>
+
+    <h1>Skull Trooper</h1>
+    <p>. The Skull Trooper is one of the most iconic Fortnite skins. It's nowhere near as advanced as skins are today, being a
+    simple black costume ...</p>
+
+    <h1></h1>
+    <p></p>
 </body>
+
 </html>
